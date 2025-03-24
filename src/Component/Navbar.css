@@ -1,3 +1,6 @@
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +8,7 @@
 }
 
 nav {
-  background-color: black;
+  background-color: #1a1a40;
   padding: 10px 20px;
   position: sticky;
   top: 0;
@@ -19,7 +22,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 nav li {
@@ -28,24 +31,24 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   font-size: 16px;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 nav a.active {
-  border-bottom: 2px solid #ffcc00; 
+  border-bottom: 2px solid #00aaff;
 }
 
 nav a:hover {
-  color: #ffcc00;
+  color: #00ffff;
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
   nav ul {
-    flex-direction: row; 
+    flex-direction: row;
     align-items: flex-start;
     padding: 10px 0;
   }

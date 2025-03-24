@@ -17,7 +17,7 @@ body {
 .MuiButton-root {
   margin-top: 10px;
   margin-right: 10px;
-  background-color: #007BFF;
+  background-color: #8B0000; /* Dark Red */
   color: white;
   font-size: 14px;
   padding: 10px 20px;
@@ -29,9 +29,8 @@ body {
   justify-content: center;
 }
 
-
 button:hover, .MuiButton-root:hover {
-  background-color: #0056b3;
+  background-color: #600000; /* Darker Red */
 }
 
 .form-container {
@@ -56,7 +55,7 @@ input, .MuiTextField-root {
 }
 
 input:focus, .MuiTextField-root:focus {
-  border-color: #007BFF;
+  border-color: #8B0000; /* Dark Red */
   outline: none;
 }
 
@@ -76,7 +75,7 @@ th, td {
 }
 
 th {
-  background-color: #007BFF;
+  background-color: #8B0000; /* Dark Red */
   color: white;
 }
 
@@ -109,7 +108,7 @@ td button:hover {
 
 .app-bar {
   position: relative;
-  background-color: #1976d2; 
+  background-color: #600000; /* Darker Red */
   box-shadow: none; 
 }
 
@@ -142,10 +141,8 @@ td button:hover {
   }
 
   .form-container {
-    .form-container {
       margin: 20px auto; 
       padding: 15px;
-    }
   }
 
   input, .MuiTextField-root {
@@ -182,28 +179,27 @@ td button:hover {
   }
 }
 
-  table {
-      font-size: 13px;
-  }
+table {
+  font-size: 13px;
+}
 
-  td button {
-      font-size: 11px;
-      padding: 5px 10px;
-  }
+td button {
+  font-size: 11px;
+  padding: 5px 10px;
+}
 
-  .toolbar {
-    padding: 0 8px;
-  }
+.toolbar {
+  padding: 0 8px;
+}
 
-  .toolbar-icon {
-    font-size: 1.2rem;
-  }
+.toolbar-icon {
+  font-size: 1.2rem;
+}
 
-  .toolbar-title {
-    font-size: 1rem;
-  }
+.toolbar-title {
+  font-size: 1rem;
+}
 
-  .btn{
-    margin-left: -90px;
-  }
-
+.btn {
+  margin-left: -90px;
+}
